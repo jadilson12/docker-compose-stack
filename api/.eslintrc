@@ -7,12 +7,20 @@
   },
   "extends": "airbnb-base",
   "rules": {
-    "strict": "off",
-    "semi": [
+    "comma-dangle": [
+      1,
+      {
+        "objects": "always",
+        "arrays": "ignore",
+        "imports": "ignore",
+        "exports": "ignore",
+        "functions": "ignore"
+      },
       "error",
       "never"
     ],
-    "comma-dangle": [
+    "strict": "off",
+    "semi": [
       "error",
       "never"
     ],
