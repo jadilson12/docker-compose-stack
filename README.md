@@ -27,7 +27,7 @@ Installing dependencies
 
 ```shell
 cd api ; npm install
-cd ../webapp ; npm install  ; cd ..
+cd ../web-app ; npm install  ; cd ..
 ```
 
 Start compose
