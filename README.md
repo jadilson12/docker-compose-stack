@@ -10,7 +10,7 @@ A stack environment built using Docker Compose. It consists of the following:
 
 ## Installation
 
-Clone this repository on your local computer . 
+Clone this repository on your local computer .
 Run the `docker-compose up -d`.
 
 ```shell
@@ -26,8 +26,8 @@ cp docker-compose.example docker-compose.yml
 Installing dependencies
 
 ```shell
-cd api ; npm install ; npm audit fix
-cd ../webapp ; npm install ; npm audit fix ; cd ..
+cd api ; npm install
+cd ../webapp ; npm install  ; cd ..
 ```
 
 Start compose
@@ -36,4 +36,4 @@ Start compose
 docker-compose up -d
 ```
 
-Your AdonisJs is now ready!! You can access it via `http://0.0.0.0:3300`.
+Your AdonisJs is now ready!! You can access it via `http://localhost:3333`.
