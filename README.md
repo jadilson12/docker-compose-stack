@@ -37,3 +37,8 @@ docker-compose up -d
 ```
 
 Your AdonisJs is now ready!! You can access it via `http://localhost:3333`.
+
+## author
+
+Jadilson Guedes <jadilson12@gmail.com>  
+License MIT <https://jadilson12.mit-license.org/>
